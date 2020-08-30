@@ -1,0 +1,9 @@
+import pandas as pd
+data={
+    'day':['1/1/2018','2/1/2018','3/1/2018','4/1/2018'],
+    'tempereture':[35,28,18,20],
+    'event':['rain','sunny','rain','sunny']
+}
+df=pd.DataFrame(data)
+#df.shape
+df
